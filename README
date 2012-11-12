@@ -1,0 +1,10 @@
+MAX17043/44 library for Arduino
+
+
+The MAX17043/MAX17044 are ultra-compact, low-cost, host-side fuel-gauge systems 
+for lithium-ion (Li+) batteries in handheld and portable equipment. 
+
+The MAX17043 is configured to operate with a single lithium cell 
+and the MAX17044 is configured for a dual-cell 2S pack.
+
+http://www.maximintegrated.com/datasheet/index.mvp/id/6546

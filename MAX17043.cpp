@@ -53,7 +53,7 @@ byte MAX17043::getAlertThreshold() {
 	return 32 - (LSB & 0x1F);
 }
 
-byte MAX17043::setAlertThreshold(byte threshold) {
+void MAX17043::setAlertThreshold(byte threshold) {
 
 	byte MSB = 0;
 	byte LSB = 0;

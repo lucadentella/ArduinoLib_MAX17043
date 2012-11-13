@@ -26,7 +26,7 @@ class MAX17043 {
 		int getVersion();
 		byte getCompensateValue();
 		byte getAlertThreshold();
-		byte setAlertThreshold(byte threshold);
+		void setAlertThreshold(byte threshold);
 		boolean inAlert();
 		void clearAlert();
 		

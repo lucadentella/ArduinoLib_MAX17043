@@ -12,8 +12,8 @@ float MAX17043::getVCell() {
 	
 	readRegister(VCELL_REGISTER, MSB, LSB);
 	int value = (MSB << 4) | (LSB >> 4);
-	return map(value, 0x000, 0xFFF, 0, 50000) / 10000.0;
-	//return value * 0.00125;
+	// return map(value, 0x000, 0xFFF, 0, 50000) / 10000.0;
+	return value * 0.00125;
 }
 
 float MAX17043::getSoC() {

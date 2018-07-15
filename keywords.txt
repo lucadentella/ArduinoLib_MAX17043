@@ -2,19 +2,19 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-MAX17043			KEYWORD1
+MAX17043	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
 
-getVCell			KEYWORD2
-getSoC				KEYWORD2
-getVersion			KEYWORD2
+getVCell	KEYWORD2
+getSoC	KEYWORD2
+getVersion	KEYWORD2
 getCompensateValue	KEYWORD2
 getAlertThreshold	KEYWORD2
 setAlertThreshold	KEYWORD2
-inAlert				KEYWORD2
-clearAlert			KEYWORD2
-reset				KEYWORD2
-quickStart			KEYWORD2
+inAlert	KEYWORD2
+clearAlert	KEYWORD2
+reset	KEYWORD2
+quickStart	KEYWORD2

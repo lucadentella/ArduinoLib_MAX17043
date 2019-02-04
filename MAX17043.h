@@ -32,6 +32,8 @@ class MAX17043 {
 		
 		void reset();
 		void quickStart();
+
+        void startPowerSavingMode();
 	
 	private:
 

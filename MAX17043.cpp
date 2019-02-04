@@ -117,3 +117,6 @@ void MAX17043::writeRegister(byte address, byte MSB, byte LSB) {
 	Wire.write(LSB);
 	Wire.endTransmission();
 }
+
+void MAX17043::startPowerSavingMode() {
+}
